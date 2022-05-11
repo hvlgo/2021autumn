@@ -1,0 +1,16 @@
+digraph binaryTree{
+    node[shape=circle,color=blue,fontcolor=blue,fontsize=10];
+    root[label = ""];
+    a[label = ""];
+    b[label = "A : 5"];
+    c[label = ""];
+    d[label = "B : 4"];
+    g[label = "C : 1"];
+    h[label = "D : 3"];
+    root -> a;
+    root -> b;
+    a -> c;
+    a -> d;
+    c -> g;
+    c -> h;
+}
